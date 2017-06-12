@@ -1,0 +1,112 @@
+body {
+	background:
+radial-gradient(circle at 0% 50%, 
+rgba(96, 16, 48, 0) 9px, #613 10px, 
+rgba(96, 16, 48, 0) 11px) 0px 10px,
+radial-gradient(at 100% 100%,
+rgba(96, 16, 48, 0) 9px, #613 10px,
+rgba(96, 16, 48, 0) 11px),
+#8a3;background-size: 20px 20px;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-size:16px;
+margin:auto;
+}
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;}
+
+h1{background: #ff751a;
+    background: -webkit-linear-gradient(#ff751a, #ffff80);
+    background: -o-linear-gradient(#ff751a, #ffff80);
+    background: -moz-linear-gradient(#ff751a, #ffff80);
+    background: linear-gradient(#ff751a, #ffff80);
+    width: 350px;
+    border: 25px hidden;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+
+
+
+#instructions {
+    background: #ffffcc;
+    background: -webkit-linear-gradient(#ffffcc, #ffff80);
+    background: -o-linear-gradient(#ffffcc, #ffff80);
+    background: -moz-linear-gradient(#ffffcc, #ffff80);
+    background: linear-gradient(#ffffcc, #ffff80);
+    width: 450px;
+    border: 25px hidden;
+    padding: 25px;
+    margin-bottom:25px;
+    border-radius: 25px;
+    	
+}
+
+#MysteryNumber {
+	float:left;
+    background: #992c48;
+    background: -webkit-linear-gradient(#992c48, #4d1933);
+    background: -o-linear-gradient(#992c48, #4d1933);
+    background: -moz-linear-gradient(#992c48, #4d1933);
+    background: linear-gradient(#992c48, #4d1933);
+    width: 175px;
+    height:150px;
+    border: 25px hidden;
+    padding: 25px; 
+    border-radius: 25px;
+    border: 1px hidden;
+}
+
+#scored {
+	background: #63aa33;
+    background: -webkit-linear-gradient(#63aa33, #006600);
+    background: -o-linear-gradient(#63aa33, #006600);
+    background: -moz-linear-gradient(#63aa33, #006600);
+    background: linear-gradient(#63aa33, #006600);
+  	width: 150px;
+  	height:150px;
+    border: 10px hidden;
+    padding: 25px;
+    overflow: hidden;
+    border-radius: 25px;
+
+
+}
+
+#Gems {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.gems {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.gems:firstchild {
+	margin-left: 0px;
+
+}
+
+
+
+
+#final {background: #228B22;
+	    background: #228B22;
+        background: -webkit-linear-gradient(#228B22, #00b33c);
+        background: -o-linear-gradient(#228B22, #00b33c);
+        background: -moz-linear-gradient(#228B22, #00b33c);
+        background: linear-gradient(#228B22, #00b33c);
+        width: 300px;
+    	border: 25px;
+        padding: 15px;
+        margin:25px;
+        margin-left:30px;
+        padding-bottom: 100px;
+        border-radius: 25px;
+        vertical-align: middle;
+}
