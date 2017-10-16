@@ -1,7 +1,7 @@
 $(document).ready(function() {
-
+//sets array of images
 	Gems = ['assets/images/diamond.png','assets/images/ruby.png','assets/images/emerald.png','assets/images/sapphire.png'];
-
+//sets score at beginning of game
 	var counter = 0;
 	var wins = 0;
 	var losses = 0;
@@ -10,7 +10,7 @@ $(document).ready(function() {
 	
 	Gemstones();
 	nextround();
-
+//assigns random numbers gemstones
 	function Gemstones () {
 		var numbers = []
 			while(numbers.length < 4){
@@ -43,7 +43,7 @@ $(document).ready(function() {
 		function randomIntFromInterval(min,max){
 		   	return Math.floor(Math.random()*(max-min+1)+min);
 			}
-
+//sets number to reach
 		var numberToGuess = randomIntFromInterval(19,120);
 
 		$('.value').text(numberToGuess);
@@ -53,7 +53,7 @@ $(document).ready(function() {
 		    counter = counter + parseInt($(this).data('num'));
 		   $('#yourScore').text(counter);
 
-
+//winner
 		    if (counter == numberToGuess){
 		      $('#status').text('You won, trumpet sound and stuff!!');
 		      wins ++;
@@ -62,7 +62,7 @@ $(document).ready(function() {
 		      $('#Gems').empty();
 		      Gemstones();
 		      nextround();
-		        
+	//loser	        
 		    } else if ( counter > numberToGuess){
 		        $('#status').text('You Lose, these things happen.')
 		        losses ++;
